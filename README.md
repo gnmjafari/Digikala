@@ -1,2 +1,2 @@
 # Digikala
-[Live Demo]https://gnmdigikala.netlify.app/)
+[Live Demo](https://gnmdigikala.netlify.app/)
