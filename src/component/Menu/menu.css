@@ -1,0 +1,142 @@
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 19;
+    transition: top 0.3s;
+}
+
+header .boximg{
+    width: 100%;
+    height: 40px;
+}
+
+header .boximg img{
+    z-index: 21;
+    width: 100%;
+    height: 100%;
+}
+
+header .contianer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+}
+
+header .contianer .searchBox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header .contianer .searchBox input{
+    border-radius: 8px;
+    border: 0;
+    background-color: #f0f0f1;
+    padding: 12px 55px;
+    color:#858585;
+    outline: none;
+}
+
+header .contianer .searchBox svg{
+    position: absolute;
+    right: 9.5rem;
+    font-size: 25px;
+    color:#858585;
+}
+
+header .contianer .singFormBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+header .contianer .singFormBox button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 15px;
+    border-radius: 8px;
+    background-color: white;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    cursor: pointer;
+}
+
+header .contianer .singFormBox svg{
+    font-size: 25px;
+    color:#424750;
+}
+
+
+header .contianerMenu{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    padding-top: 10px;
+    margin-bottom: 0;
+    background-color: white;
+    transition:0.3s ease-in-out;
+    z-index: -1;
+}
+
+header .contianerMenu .MenuBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header .contianerMenu .MenuBox h4 a{
+    color: #424750;
+    display: flex;
+    gap:8px;
+    padding-bottom: 5px;
+    line-height: 100%;
+    border-bottom: 2px solid white;
+}
+
+header .contianerMenu .MenuBox h4 a:hover{
+    border-bottom: 2px solid #ef4056 ;
+}
+
+header .contianerMenu .MenuBox .Menuboxasli{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 100%;
+    gap: 25px;
+    list-style-type: none;
+    color: #62666D;
+    font-size: 15px;
+    transition: 1s ease-in-out;
+}
+
+header .contianerMenu .MenuBox .Menuboxasli li{
+    border-bottom: 2px solid white;
+    padding-bottom: 6px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+header .contianerMenu .MenuBox .Menuboxasli li:hover{
+    border-bottom: 2px solid #ef4056 ;
+}
+
+header .contianerMenu .locationBox a{
+    font-size: 15px;
+    color: #62666D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    padding-bottom: 2px;
+}

@@ -1,0 +1,54 @@
+.submenu{
+    position: absolute;
+    top: 15px;
+    right: 13rem;
+    bottom: 5px;
+    columns: 4;
+    column-fill: auto; 
+    column-gap: 30px;
+    padding-right: 10px;
+}
+
+.submenu h4{
+    column-span: all;
+    text-align:right;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+    
+}
+
+.submenu .subtitel{
+    list-style-type: none;
+    font-size: 1rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-right: 3px solid #ef4056;
+    padding-right: 7px;
+}
+
+.submenu .subtitel:hover{
+    color: #ef4056;
+    cursor: pointer;
+}
+
+.submenu div{
+    color: #62666D; 
+    margin-bottom: 20px;
+}
+
+.submenu div:hover{
+    color: #ef4056;
+}
+
+.submenu ul{
+    margin-bottom: 15px;
+}
+
+.clickedd{
+    display: none;
+}

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Yekan;
+    src: url(./fonts/Yekan.ttf);
+}
+
+body{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Yekan;
+    text-decoration: none;
+}

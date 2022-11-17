@@ -1,0 +1,107 @@
+.contianerBoxBestSellingProducts{
+    width: 85%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contianerBoxBestSellingProducts h2 svg{
+    color: gold;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.contianerBoxBestSellingProducts img{
+    width:25%;
+    height: 70px;
+}
+
+
+.contianerBoxBestSellingProducts .swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.contianerBoxBestSellingProducts .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% - 30px) / 2) !important;
+    align-items: center;
+    justify-content: center;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items:center;
+    gap: 15px;
+    width: 350px;
+}
+
+.contianerBoxBestSellingProducts .swiper-grid-column>.swiper-wrapper{
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.contianerBoxBestSellingProducts .swiper-slide p{
+    font-size: 15px;
+    text-align: right;
+}
+
+.contianerBoxBestSellingProducts .swiper-slide span{
+    font-size: 30px;
+    color: aqua;
+}
+
+.contianerBoxBestSellingProducts .swiper-button-prev{
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+    border-radius: 50%;
+    padding: 10px 20px;
+    padding-top:12px;
+    font-size: 20px;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.contianerBoxBestSellingProducts .swiper-button-prev::after{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 50%;
+}
+
+.contianerBoxBestSellingProducts .swiper-button-next{
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+    border-radius: 50%;
+    padding: 10px 20px;
+    padding-top:12px;
+    font-size: 20px;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.contianerBoxBestSellingProducts .swiper-button-next::after{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 50%;
+}
+
+.contianerBoxBestSellingProducts .swiper-scrollbar{
+    display: none;
+}

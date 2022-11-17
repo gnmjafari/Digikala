@@ -1,0 +1,210 @@
+footer{
+    margin-top: 70px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+footer button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    color: #a1a3a8;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 0px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.BoxPhone{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    margin-top: 25px;
+    color: #424750;
+}
+
+.BoxPhone div:first-child{
+    border-left: 2px solid #424750;
+    padding-left: 15px;
+}
+
+.BoxInformation{
+    margin: 40px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.BoxInformation a{
+    text-align: center;
+    color: #424750;
+    font-size: 13px;
+}
+
+.BoxFooterMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.BoxFooterMenu .BoxFooterMenuTiter{
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.BoxFooterMenu .BoxFooterMenuTiter h2{
+    font-size: 21px;
+}
+
+.BoxFooterMenu .BoxFooterMenuTiter a{
+    color: #424750;
+}
+
+.BoxFooterMenu .BoxFooterMenuTiter .BoxSocialNetworks svg{
+    font-size: 40px;
+    margin-left: 35px;
+}
+
+.BoxFooterMenu .BoxFooterMenuTiter input{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #e9e9e9;
+    color: #424750;
+    outline: none;
+}
+
+.BoxFooterMenu .BoxFooterMenuTiter input:nth-child(2){
+    color: white;
+    background-color:#c5c5c5;
+}
+
+.BoxDownload{
+    background-color:#3c4b6d ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.BoxDownload div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+}
+
+.BoxDownload div:nth-child(1) img{
+    width: 40px;
+}
+
+.BoxDownload div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    line-height: 50%;
+}
+
+.BoxDownload div:nth-child(2) img{
+    width: 150px;
+    height: 40px;
+}
+
+.BoxDownload div a:last-child{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #424750;
+    font-size: 32px;
+}
+
+.BoxNemad{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.BoxNemad div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    color: #a1a3a8;
+}
+
+.BoxNemad div:nth-child(1) a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a1a3a8;
+}
+
+.BoxNemad div:nth-child(1) a svg{
+    color: aqua;
+}
+
+.BoxNemad div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.BoxNemad div:nth-child(2) a{
+    width: 110px;
+    height: 110px;
+    padding: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 10px;
+}
+.BoxNemad div:nth-child(2) a img{
+    width: 70px;
+    height: 80px;
+}
+
+.BoxOderBrand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #c8c8c8;
+}
+
+.BoxOderBrand a{
+    padding: 0px 35px;
+    height: 80px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #e0e0e2;
+    border-bottom: 1px solid #e0e0e2;
+}
+
+.BoxOderBrand a img{
+    height: 20px;
+}
