@@ -432,7 +432,7 @@ function Content() {
             </Swiper>
         </div>
 
-        <div style={{display:"flex", justifyContent:"center", marginTop:"10px",width:"100%", textAlign:"center", padding:"20px 90px"}}>
+        <div className='boximg2'>
             <a href="">
                  <img style={{width:"95%", borderRadius:"20px"}} src={image80} alt="" />
             </a>
@@ -734,30 +734,38 @@ function Content() {
         </div>
 
         <div className='BoxReading' dir='rtl'>
-            <a href="">
-                <img src={image129} alt="" />
-                <p>
-                    هنگ درام نیتراید یا استیل؟  
-                </p>
-            </a>
-            <a href="">
-                <img src={image130} alt="" />
-                <p>
-                    بررسی ظرف غذای برقی درما مدل DG15؛ طراحی خلاقانه و کاربردی
-                </p>
-            </a>
-            <a href="">
-                <img src={image131} alt="" />
-                <p>
-                    ناسا سپر حرارتی بادی خود را در مدار آزمایش کرد   
-                </p>
-            </a>
-            <a href="">
-                <img src={image132} alt="" />
-                <p>
-                    تاگ کارخانه خودروسازی خود را در ترکیه افتتاح کرد    
-                </p>
-            </a>
+            <div>
+                <a href="">
+                    <img src={image129} alt="" />
+                    <p>
+                        هنگ درام نیتراید یا استیل؟  
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src={image130} alt="" />
+                    <p>
+                        بررسی ظرف غذای برقی درما مدل DG15؛ طراحی خلاقانه و کاربردی
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src={image131} alt="" />
+                    <p>
+                        ناسا سپر حرارتی بادی خود را در مدار آزمایش کرد   
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src={image132} alt="" />
+                    <p>
+                        تاگ کارخانه خودروسازی خود را در ترکیه افتتاح کرد    
+                    </p>
+                </a>
+            </div>   
         </div>
         </>
     )

@@ -36,7 +36,7 @@ function BestSellingProducts(){
                spaceBetween={40}
 
                direction={"horizontal"}
-              slidesPerView={"auto"}
+              slidesPerView={3}
               freeMode={true}
               scrollbar={true}
               mousewheel={true}
