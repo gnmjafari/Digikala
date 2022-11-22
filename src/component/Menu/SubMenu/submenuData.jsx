@@ -292,12 +292,6 @@ export const Cameraaccessories = [
     {
         dropsub:'کاغذ چاپ عکس'
     },
-    {
-        dropsub:'آنر'
-    },
-    {
-        dropsub:'نوکیا'
-    },
 ]
 
 export const ComputersAndPeripherals = [
