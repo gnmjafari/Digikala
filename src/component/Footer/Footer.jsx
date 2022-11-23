@@ -152,6 +152,8 @@ function Footer() {
             <a href="">
               <img src={image143} alt="" />
             </a>
+          </div>
+          <div>
             <a href="">
               <FiMoreHorizontal />
             </a>
